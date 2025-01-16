@@ -1,0 +1,52 @@
+.membership-form-background {
+    background-image: url('https://img95.lovepik.com/photo/40107/8983.gif_wh860.gif'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .membership-form-container {
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .membership-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .membership-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .membership-form input,
+  .membership-form select {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .membership-form button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .membership-form button:hover {
+    background-color: darkblue;
+  }
+  
